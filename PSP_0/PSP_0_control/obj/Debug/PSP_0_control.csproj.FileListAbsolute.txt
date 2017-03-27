@@ -1,0 +1,7 @@
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\bin\Debug\PSP_0_control.dll
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\bin\Debug\PSP_0_control.pdb
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\bin\Debug\PSP_0_modelo.dll
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\bin\Debug\PSP_0_modelo.pdb
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\obj\Debug\PSP_0_control.csprojResolveAssemblyReference.cache
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\obj\Debug\PSP_0_control.dll
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_control\obj\Debug\PSP_0_control.pdb

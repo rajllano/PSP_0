@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9FEB5A7-D28A-41F8-82AC-907D7AE65CE3}</ProjectGuid>
+    <ProjectGuid>{11142FB0-FEDD-4E7E-A7D4-45CB57337E0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PSP_0_modelo</RootNamespace>
-    <AssemblyName>PSP_0_modelo</AssemblyName>
+    <RootNamespace>PSP_0_control</RootNamespace>
+    <AssemblyName>PSP_0_control</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,15 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aplicacion.cs" />
-    <Compile Include="Iterador.cs" />
-    <Compile Include="Lista.cs" />
-    <Compile Include="ListaIterador.cs" />
-    <Compile Include="Nodo.cs" />
+    <Compile Include="ControlAplicacion.cs" />
+    <Compile Include="ControlLista.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Diagrama de clases.cd" />
+    <ProjectReference Include="..\PSP_0_modelo\PSP_0_modelo.csproj">
+      <Project>{e9feb5a7-d28a-41f8-82ac-907d7ae65ce3}</Project>
+      <Name>PSP_0_modelo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

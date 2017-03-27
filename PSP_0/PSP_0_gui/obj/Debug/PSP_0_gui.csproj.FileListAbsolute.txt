@@ -3,3 +3,8 @@ C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\bin\Debug\PSP_0_gui.exe
 C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\bin\Debug\PSP_0_gui.pdb
 C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\obj\Debug\PSP_0_gui.exe
 C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\obj\Debug\PSP_0_gui.pdb
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\obj\Debug\PSP_0_gui.csprojResolveAssemblyReference.cache
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\bin\Debug\PSP_0_control.dll
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\bin\Debug\PSP_0_modelo.dll
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\bin\Debug\PSP_0_control.pdb
+C:\Users\Max\Source\Repos\PSP_0\PSP_0\PSP_0_gui\bin\Debug\PSP_0_modelo.pdb
