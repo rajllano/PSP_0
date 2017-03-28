@@ -4,7 +4,7 @@ namespace PSP_0_control
 {
     public static class ControlAplicacion
     {
-        private static Aplicacion a;
+        private static Aplicacion a = null;
 
         public static Aplicacion getInstancia()
         {

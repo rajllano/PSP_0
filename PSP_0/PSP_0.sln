@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSP_0_gui", "PSP_0_gui\PSP_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSP_0_control", "PSP_0_control\PSP_0_control.csproj", "{11142FB0-FEDD-4E7E-A7D4-45CB57337E0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSP_0_sqa", "PSP_0_sqa\PSP_0_sqa.csproj", "{D826A627-E0CB-4193-9285-D0B52C62217E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{11142FB0-FEDD-4E7E-A7D4-45CB57337E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11142FB0-FEDD-4E7E-A7D4-45CB57337E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11142FB0-FEDD-4E7E-A7D4-45CB57337E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D826A627-E0CB-4193-9285-D0B52C62217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D826A627-E0CB-4193-9285-D0B52C62217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D826A627-E0CB-4193-9285-D0B52C62217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D826A627-E0CB-4193-9285-D0B52C62217E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

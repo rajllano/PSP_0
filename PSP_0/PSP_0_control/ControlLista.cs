@@ -39,41 +39,9 @@ namespace PSP_0_control
             Contador++;
 
             if (Contador == CantidadNumeros)
-                return Calcular();
+                return ControlCalculos.Calcular();
 
             return null;
-        }
-
-        public static String Calcular()
-        {
-            Iterador i;
-            Double Promedio = 0;
-            Double DesviacionEstandar = 0;
-
-            i = ControlAplicacion.getInstancia().Lista.Iterador(); 
-
-            while(i.tieneSiguiente())
-                Promedio = Promedio + i.Siguiente();
-
-            Promedio = Promedio / CantidadNumeros;
-
-            i = ControlAplicacion.getInstancia().Lista.Iterador();
-
-            Double Resta;
-            Double Suma = 0;
-
-            while (i.tieneSiguiente())
-            {
-                Resta = i.Siguiente() - Promedio;
-                Resta = Math.Pow(Resta, 2);
-                Suma = Suma + Resta;
-            }
-
-            DesviacionEstandar = Math.Sqrt(Suma / CantidadNumeros - 1);
-
-            String Mensaje = String.Format("Media = {0} - Desviacion Estandar = {1}", Promedio, DesviacionEstandar);
-
-            return Mensaje;
         }
     }
 }

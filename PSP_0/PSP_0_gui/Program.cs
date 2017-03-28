@@ -11,15 +11,39 @@ namespace PSP_0_gui
     {
         static void Main(string[] args)
         {
-            String Respuesta;
+            String Cadena = null;  
 
-            ControlLista.Iniciar("3");
+            Console.WriteLine("**************************************");
+            Console.WriteLine("Calculo de Media y Desviacion Estandar ");
+            Console.WriteLine("**************************************");
 
-            ControlLista.AgregarNumero("5");
-            ControlLista.AgregarNumero("3");
-            Respuesta = ControlLista.AgregarNumero("8");
+            Console.WriteLine("Por favor digite el cuantos números desea ingresar: ");
 
-            Console.WriteLine(Respuesta);
+            do
+            {
+                if (Cadena != null)
+                    Console.WriteLine(Cadena);
+
+                Cadena = Console.ReadLine();
+
+            } while (ControlLista.Iniciar(Cadena) != null);
+
+            Console.WriteLine("Usted va a ingresar " + Cadena + " números");
+
+            Cadena = null;
+
+            do
+            {
+                if (Cadena != null)
+                    Console.WriteLine(Cadena);
+
+                Cadena = Console.ReadLine();
+
+                Cadena = ControlLista.AgregarNumero(Cadena);
+
+            } while (Cadena == null);
+
+            Console.WriteLine(Cadena);
 
             Console.ReadKey();
         }
